@@ -132,6 +132,10 @@ img {
   height: auto;
 }
 
+svg {
+  vertical-align: middle;
+}
+
 /* REUSABLE CSS CLASSES */
 .section{
   padding: 2rem 0 4rem;
@@ -888,6 +892,7 @@ img {
 
 .footer__social:hover{
   color: var(--first-color-lighter);
+  fill: var(--first-color-lighter);
 }
 
 .footer__copy{
@@ -902,6 +907,7 @@ img {
 .footer__link,
 .footer__social{
   color: #FFF;
+  fill: #FFF;
 }
 
 
